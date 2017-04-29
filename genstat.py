@@ -1,3 +1,7 @@
+# Download the form sheet in 'csv' format
+# Run the python script using python3 with path to sheet and team name
+# eg: python3 ./genstat.py forms.csv Machine Learning
+# To save it to a file use eg: python3 ./genstat.py forms.csv Machine Learning > ML-Team.txt
 import sys
 import csv
 print('{:^73}'.format(''.join(sys.argv[2:])+" Team"))
